@@ -1,5 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.css";
-
+ 
 body{
-    background-color: lightblue;
+    background-color: paleturquoise;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: black;
+ font-weight: 400;
+ font-style: italic;
+}
+h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 2%;
 }
