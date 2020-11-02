@@ -4,7 +4,7 @@
     <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
         <div class="form-group">
   
-            <label for="name">uote</label>
+            <label for="name">Quote</label>
             <input type="text" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name='ngModel' required>
             <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
               <p>Quote is required</p>
